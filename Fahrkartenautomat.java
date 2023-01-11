@@ -40,19 +40,19 @@ class Fahrkartenautomat {
 
     public static void begruessung() {
         String [] fahrkartenNamen = {
-                "Einzelfahrschein AB",
-                "Einzelfahrschein BC",
-                "Einzelfahrschein ABC",
-                "Kurzstrecke AB",
-                "Tageskarte AB",
-                "Tageskarte BC",
-                "Tageskarte ABC",
-                "4-Fahrten-Karte AB",
-                "4-Fahrten-Karte BC",
-                "4-Fahrten-Karte ABC",
-                "Kleingruppen-Tageskarte AB",
-                "Kleingruppen-Tageskarte BC",
-                "Kleingruppen-Tageskarte ABC"
+                "Einzelfahrschein AB [3,00]",
+                "Einzelfahrschein BC [3,50]",
+                "Einzelfahrschein ABC [3,80]",
+                "Kurzstrecke AB [2,00]",
+                "Tageskarte AB [8,60]",
+                "Tageskarte BC [9,20]",
+                "Tageskarte ABC [10,00]",
+                "4-Fahrten-Karte AB [9,40]",
+                "4-Fahrten-Karte BC [12,60]",
+                "4-Fahrten-Karte ABC [13,80]",
+                "Kleingruppen-Tageskarte AB [25,50]",
+                "Kleingruppen-Tageskarte BC [26,00]",
+                "Kleingruppen-Tageskarte ABC [26,50]"
         };
         System.out.println("Wählen Sie ihre Wunschfahrkarte für Berlin AB aus:");
         for (int i = 0; i < fahrkartenNamen.length; i++){
